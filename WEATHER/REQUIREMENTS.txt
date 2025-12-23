@@ -1,0 +1,7 @@
+library needed
+
+1.request library(does request call)
+2.geopy library(helps in getting longitude and latitude)
+
+pip install requests
+pip install geopy
