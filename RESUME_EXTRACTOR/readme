@@ -1,0 +1,53 @@
+# 🧠 Resume Parser GUI (Python)
+
+A Python-based GUI application that allows users to upload resumes (PDF/DOC/DOCX), automatically extracts key information, and displays it in a new window to save interview screening time.
+
+---
+
+##  Features
+
+- Upload resumes in **PDF, DOC, or DOCX** format
+- Automatically extracts:
+  - Name
+  - Age (if available)
+  - Email
+  - Phone Number
+  - Address
+  - Education / Qualifications
+  - Skills
+  - Work Experience
+  - Achievements / Certifications
+- Displays extracted data in a **new GUI window**
+- Beginner-friendly and modular code
+- Graceful handling of missing fields (`Not Found`)
+
+---
+
+##  GUI Overview
+
+###  Main Window
+- Upload Resume button
+- File format validation
+
+###  Result Window
+- Clean layout using labels / table
+- Displays all extracted information clearly
+
+---
+
+##  Technologies Used
+
+- **Python 3**
+- **Tkinter** – GUI
+- **pdfplumber / PyPDF2** – PDF reading
+- **python-docx** – DOC/DOCX reading
+- **re (Regex)** – Email & phone extraction
+- **spaCy / NLTK (optional)** – Name, skills & entity extraction
+
+---
+
+## 📦 Installation
+
+ After downloading the repo just run the following command in the terminal
+ 1. pip install -r requirements.txt
+ 2. python main.py
